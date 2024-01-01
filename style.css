@@ -5,3 +5,34 @@ body{
 .bg-light{
     background-color: white!important;
 }
+.buy-now-btn{
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.container{
+    margin-bottom: 20px;
+}
+.carousel-item{
+    padding: 20px 150px;
+}
+.carousel-control-prev{
+    border: transparent;
+    background-color: transparent;
+}
+.carousel-control-next{
+    border: transparent;
+    background-color: transparent;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;  
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
