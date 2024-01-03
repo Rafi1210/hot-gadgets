@@ -30,9 +30,28 @@ body{
 .card{
     border: none;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgray;  
+    box-shadow: 5px 5px 10px rgb(224, 224, 224);  
+    height: 500px;
+    
+}
+.card img{
+    width: 60%;
+    margin-top: 20px;
 }
 .card-footer{
     background-color: white;
     border-top: none;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+h5{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+.see-all{
+    background-color: transparent;
+    border: none;
+    border-radius: none;
+    color: orange;
 }
