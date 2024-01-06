@@ -15,6 +15,7 @@ body{
 }
 .container{
     margin-bottom: 20px;
+    /* border: 2px solid red; */
 }
 .carousel-item{
     padding: 20px 150px;
@@ -30,9 +31,10 @@ body{
 .card{
     border: none;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgb(224, 224, 224);  
+    box-shadow: 5px 5px 10px 5px rgb(224, 224, 224,224);  
     height: 500px;
-    
+    /* border: 2px solid blue; */
+
 }
 .card img{
     width: 60%;
@@ -54,4 +56,54 @@ h5{
     border: none;
     border-radius: none;
     color: orange;
+}
+.block{
+    width: 90px;
+    height: 6px;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, #ff8206, #ffff00);
+}
+.mb-4{
+    /* border: 2px solid blue; */
+}
+.row{
+    /* border: 2px solid pink; */
+
+}
+#bag{
+    /* border: 2px solid green; */
+    margin-top: 11rem;
+    border-radius: 0 20px 0 30px;
+
+}
+#beauty-shoe{
+    margin-top: 30px;
+    border-radius: 20px 0px 30px 0px; 
+}
+.card-img-center{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0;
+
+}
+.col-md-3{
+    /* border: 1px solid red; */
+}
+.col-md-6{
+    /* border: 1px solid violet; */
+}
+.order{
+    /* border: 1px solid grey; */
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+.order img{
+    /* border: 1px solid blue; */
+
 }
